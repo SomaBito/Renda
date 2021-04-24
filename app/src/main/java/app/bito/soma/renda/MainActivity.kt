@@ -18,7 +18,10 @@ class MainActivity : AppCompatActivity() {
             tapCount = tapCount + 1
             countText.text = tapCount.toString()
         }
-
+        tapButton2.setOnClickListener {
+            tapCount = tapCount - 1
+            countText.text = tapCount.toString()
+        }
 
 
 
